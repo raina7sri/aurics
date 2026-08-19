@@ -41,6 +41,7 @@
   .tool-row.reverse .tool-visual{order:2}
   .tool-visual img{width:100%;border-radius:12px;border:1px solid var(--line);box-shadow:0 8px 28px rgba(18,13,34,.12);display:block}
   .tool-visual.placeholder{aspect-ratio:1200/630;border-radius:12px;background:linear-gradient(135deg,#efeafd,#fff);border:1.5px dashed var(--accent);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:800;letter-spacing:1px}
+  .tool-visual.placeholder.live{border-style:solid;border-color:var(--line);background:var(--tint);color:var(--title);font-size:.95rem;text-align:center;padding:1rem;line-height:1.4}
   .badge{display:inline-block;font-size:.66rem;font-weight:800;text-transform:uppercase;letter-spacing:1px;padding:.28rem .65rem;border-radius:100px;background:var(--accent2);color:#fff;margin-bottom:.6rem}
   .badge.dev{background:var(--yellow);color:#120D22}
   .tool-row h3{font-size:1.55rem;margin:.15rem 0 .5rem}
@@ -117,8 +118,23 @@
       </div>
     </div>
 
-    <!-- Tool 3: Messaging OS (in development) -->
+    <!-- Tool 3: Customer Proof AI Layer (live) -->
     <div class="tool-row">
+      <div class="tool-visual placeholder live">Customer Proof AI Layer</div>
+      <div class="tool-text">
+        <span class="badge">Live · Open Source</span>
+        <h3>Customer Proof AI Layer</h3>
+        <p class="desc">Turns transcripts, QBR notes and call excerpts into governed <b>Customer Proof Records</b> — AI structures and adapts the proof; humans approve what is true, current, commercially useful and safe to use.</p>
+        <p class="proof-line">Live demo: one approved record generates Sales, CS, Marketing, Website and Analyst/PR outputs — each governance-checked, with excluded claims listed and reasoned.</p>
+        <div class="tool-actions">
+          <a class="open" href="https://customer-proof-ai-layer.lovable.app" target="_blank" rel="noopener">Try the Live Demo →</a>
+          <a class="src" href="https://github.com/raina7sri/customer-proof-ai-layer" target="_blank" rel="noopener">Source →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tool 4: Messaging OS (in development) -->
+    <div class="tool-row reverse">
       <div class="tool-visual placeholder">IN DEVELOPMENT</div>
       <div class="tool-text">
         <span class="badge dev">In Development</span>
